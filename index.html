@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Style -->
+  <link rel="stylesheet" href="assets/fonts/style.css">
   <link rel="stylesheet" href="style.css">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
@@ -21,7 +23,17 @@
   <header id="header">
     <nav class="container">
       <a class="logo" href="#">beauty<span>salon</span>.</a>
-      <div class="menu">...</div>
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Serviços</a></li>
+          <li><a class="title" href="#testimonials">Depoimentos</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
     </nav>
   </header>
 
@@ -34,7 +46,7 @@
             alt="Imagem Banner inicial">
         </div>
         <div class="text">
-          <h1>Saúde natural para os seus cabelos</h1>
+          <h2 class="title">Saúde natural para os seus cabelos</h2>
           <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
           <a class="button" href="#">Agendar um horário</a>
         </div>
@@ -42,8 +54,22 @@
     </section>
 
     <div class="divider-1"></div>
+
+    <section class="section" id="about">
+      <div class="container grid">
+        Sobre
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container grid">
+        Serviços
+      </div>
+    </section>
   </main>
 
+
+  <script src="main.js"></script>
 </body>
 
 </html>
